@@ -1,0 +1,14 @@
+#create new environment or use Anaconda (or miniconda)
+##########################################################
+py -m venv .venv
+
+#activate environment
+
+.venv\Scripts\activate
+
+#install base packages
+##########################################################
+pip install torch torchvision torchaudio
+pip install opencv-python
+pip install matplotlib
+pip install pandas
